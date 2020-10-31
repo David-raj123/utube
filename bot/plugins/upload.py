@@ -75,7 +75,7 @@ async def _upload(c, m):
     if not status:
         c.counter -= 1
         c.counter = max(0, c.counter)
-    await snt.edit_text(text = link, parse_mode='markdown')
+    await snt.edit_text(text = link By @David9010, parse_mode='markdown')
 
 
 def get_download_id(storage):
